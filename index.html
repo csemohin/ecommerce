@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ====Character set====-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- ====Title====-->
+    <title>Ecommerce HTML5 Template</title>
+    <!-- ====Font-awesome====-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css">
+    <!-- ====For Bootstrap-4====-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+    <!-- ====For Animate css====-->
+    <link rel="stylesheet" href="assets/css/animate.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" type="text/css">
+    <!-- ====Main style====-->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css">
+    <!-- ====Jquery calling====-->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+    <div class="header-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <div class="logo-area">
+                        <a href="index.html">
+                            <img src="assets/img/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 text-right">
+                    <div class="mainmenu">
+                        <ul id="menu">
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="#">pages</a></li>
+                            <li><a href="#">shortcodes</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="#">contact</a></li>
+                            <li><a href="#">shop</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 text-right">
+                    <div class="cart-search-area">
+                        <div class="search-item">
+                            <form action="#">
+                                <input type="text" placeholder="search here !">
+                                <button type="submit" class="s-submit">Go</button>
+                            </form>
+                        </div>
+                        <button id="search-btn"><i class="fa fa-search"></i></button>
+                        <button id="cart-btn"><i class="fa fa-cart-arrow-down"><span>2</span></i></button>
+
+                        <div class="cart-item">
+                            <div class="single-feature">
+                                <img src="assets/img/feature/1.jpg" alt="">
+                                <div class="feature-content">
+                                    <div class="update-delete">
+                                        <a href="#" title="Edit"><i class="fa fa-pencil"></i></a>
+                                        <a href="#" title="Delete"><i class="fa fa-trash-o"></i></a>
+                                    </div>
+                                    <p>Duis autem iriure</p>
+                                    <h5>$56.00</h5>
+                                </div>
+                            </div>
+                            <div class="single-feature">
+                                <img src="assets/img/feature/3.jpg" alt="">
+                                <div class="feature-content">
+                                    <div class="update-delete">
+                                        <a href="#" title="Edit"><i class="fa fa-pencil"></i></a>
+                                        <a href="#" title="Delete"><i class="fa fa-trash-o"></i></a>
+                                    </div>
+                                    <p>Duis autem iriure</p>
+                                    <h5>$56.00</h5>
+                                </div>
+                            </div>
+                            <div class="action-section">
+                                <button type="submit" class="cart">Cart</button>
+                                <p>Total : <span>$199.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--hero area-->
+    <div class="hero-area hero-area-bg-1">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="hero-wrapper d-table">
+                        <div class="hero-inner d-table-cell">
+                            <h1>Please ! Write your heading </h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem facere, <br>id, quod tempora asperiores aspernatur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--product-->
+    <div class="product-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="all-catagory">
+                        <div class="single-catagory">
+                            <h3>categories</h3>
+                            <ul>
+                                <li><a href="#">Denim <span>(15)</span></a></li>
+                                <li><a href="#">Vintage <span>(15)</span></a></li>
+                                <li><a href="#">Coat & Jacket <span>(15)</span></a></li>
+                                <li><a href="#">Jean <span>(15)</span></a></li>
+                                <li><a href="#">Women <span>(15)</span></a></li>
+                                <li><a href="#">Men <span>(15)</span></a></li>
+                                <li><a href="#">Accessories <span>(15)</span></a></li>
+                            </ul>
+                            <div class="saparet-border"></div>
+                        </div>
+
+                        <div class="single-catagory">
+                            <h3>prices</h3>
+                            <div class="flat-slider" id="flat-slider"></div>
+                            <p>Range: <span>$20.00 - $69.00</span></p>
+                            <div class="saparet-border"></div>
+                        </div>
+
+                        <div class="single-catagory">
+                            <h3>Top Brands</h3>
+                            <ul>
+                                <li><a href="#">Sloggi <span>(15)</span></a></li>
+                                <li><a href="#">Clark <span>(15)</span></a></li>
+                                <li><a href="#">Nike<span>(15)</span></a></li>
+                                <li><a href="#">Adidas <span>(15)</span></a></li>
+                                <li><a href="#">Zara <span>(15)</span></a></li>
+                                <li><a href="#">Luis Vuiton <span>(15)</span></a></li>
+                            </ul>
+                            <div class="saparet-border"></div>
+                        </div>
+
+                        <div class="single-catagory">
+                            <h3>Select color</h3>
+                            <div class="color-section">
+                                <a href="#" class="color-select red-color"></a>
+                                <a href="#" class="color-select green-color"></a>
+                                <a href="#" class="color-select orange-color"></a>
+                                <a href="#" class="color-select blue-color"></a>
+                                <a href="#" class="color-select dark-green-color"></a>
+                                <a href="#" class="color-select light-blue-color"></a>
+                            </div>
+                            <div class="saparet-border"></div>
+                        </div>
+
+                        <div class="single-catagory feature-none-mobile-view">
+                            <h3>featured items</h3>
+                            <div class="single-feature">
+                                <img src="assets/img/feature/1.jpg" alt="">
+                                <div class="feature-content">
+                                    <div class="rating">
+                                        <a href="#"><i class="fa fa-star"></i></a>
+                                        <a href="#"><i class="fa fa-star"></i></a>
+                                        <a href="#"><i class="fa fa-star"></i></a>
+                                        <a href="#"><i class="fa fa-star"></i></a>
+                                        <a href="#"><i class="fa fa-star"></i></a>
+                                    </div>
+                                    <p>Duis autem iriure</p>
+                                    <h5>$56.00</h5>
+                                </div>
+                            </div>
+                            <div class="single-feature">
+                                <img src="assets/img/feature/2.jpg" alt="">
+                                <div class="feature-content">
+                                    <div class="rating">
+                                        <a href="#"><i class="fa fa-star"></i></a>
+                                        <a href="#"><i class="fa fa-star"></i></a>
+                                        <a href="#"><i class="fa fa-star"></i></a>
+                                        <a href="#"><i class="fa fa-star"></i></a>
+                                        <a href="#"><i class="fa fa-star"></i></a>
+                                    </div>
+                                    <p>Duis autem iriure</p>
+                                    <h5>$56.00</h5>
+                                </div>
+                            </div>
+                            <div class="single-feature">
+                                <img src="assets/img/feature/3.jpg" alt="">
+                                <div class="feature-content">
+                                    <div class="rating">
+                                        <a href="#"><i class="fa fa-star"></i></a>
+                                        <a href="#"><i class="fa fa-star"></i></a>
+                                        <a href="#"><i class="fa fa-star"></i></a>
+                                        <a href="#"><i class="fa fa-star"></i></a>
+                                        <a href="#"><i class="fa fa-star"></i></a>
+                                    </div>
+                                    <p>Duis autem iriure</p>
+                                    <h5>$56.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="filter-area">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div class="grid-area">
+                                    <button id="grid" title="Grid View" class="grid-item btn-grd"><i class="fa fa-th"></i></button>
+                                    <button id="list" title="List View" class="list-item btn-grd"><i class="fa fa-list-ul"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 text-right">
+                                <form action="#">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Show</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                              <option>1</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                              <option selected>9</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 text-right">
+                                <form action="#">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect2">Shot by</label>
+                                        <select class="form-control" id="exampleFormControlSelect2">
+                                              <option>Name</option>
+                                              <option>Best Sell</option>
+                                              <option>Top Product</option>
+                                              <option>Best Rating</option>
+                                              <option>New Product</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-list">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12 s-d-s text-center">
+                                <div class="single-product">
+                                    <div class="product-bg p-bg-1">
+                                        <div class="overlay"></div>
+                                        <div class="cart-heart-icon">
+                                            <a href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                            <a href="#"><i class="fa fa-heart-o"></i></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-details">
+                                        <div class="rating">
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                        </div>
+                                        <h5>SUEDE EFFECT KIMONO</h5>
+                                        <p>£57.00 <del>£85.00</del></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                                <div class="single-product">
+                                    <div class="product-bg p-bg-2">
+                                        <div class="overlay"></div>
+                                        <div class="cart-heart-icon">
+                                            <a href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                            <a href="#"><i class="fa fa-heart-o"></i></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-details">
+                                        <div class="rating">
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                        </div>
+                                        <h5>SUEDE EFFECT KIMONO</h5>
+                                        <p>£57.00 <del>£85.00</del></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                                <div class="single-product">
+                                    <div class="product-bg p-bg-3">
+                                        <div class="overlay"></div>
+                                        <div class="cart-heart-icon">
+                                            <a href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                            <a href="#"><i class="fa fa-heart-o"></i></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-details">
+                                        <div class="rating">
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                        </div>
+                                        <h5>SUEDE EFFECT KIMONO</h5>
+                                        <p>£57.00 <del>£85.00</del></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                                <div class="single-product">
+                                    <div class="product-bg p-bg-4">
+                                        <div class="overlay"></div>
+                                        <div class="cart-heart-icon">
+                                            <a href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                            <a href="#"><i class="fa fa-heart-o"></i></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-details">
+                                        <div class="rating">
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                        </div>
+                                        <h5>SUEDE EFFECT KIMONO</h5>
+                                        <p>£57.00 <del>£85.00</del></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                                <div class="single-product">
+                                    <div class="product-bg p-bg-5">
+                                        <div class="overlay"></div>
+                                        <div class="cart-heart-icon">
+                                            <a href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                            <a href="#"><i class="fa fa-heart-o"></i></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-details">
+                                        <div class="rating">
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                        </div>
+                                        <h5>SUEDE EFFECT KIMONO</h5>
+                                        <p>£57.00 <del>£85.00</del></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                                <div class="single-product">
+                                    <div class="product-bg p-bg-6">
+                                        <div class="overlay"></div>
+                                        <div class="cart-heart-icon">
+                                            <a href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                            <a href="#"><i class="fa fa-heart-o"></i></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-details">
+                                        <div class="rating">
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                        </div>
+                                        <h5>SUEDE EFFECT KIMONO</h5>
+                                        <p>£57.00 <del>£85.00</del></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                                <div class="single-product">
+                                    <div class="product-bg p-bg-7">
+                                        <div class="overlay"></div>
+                                        <div class="cart-heart-icon">
+                                            <a href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                            <a href="#"><i class="fa fa-heart-o"></i></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-details">
+                                        <div class="rating">
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                        </div>
+                                        <h5>SUEDE EFFECT KIMONO</h5>
+                                        <p>£57.00 <del>£85.00</del></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                                <div class="single-product">
+                                    <div class="product-bg p-bg-8">
+                                        <div class="overlay"></div>
+                                        <div class="cart-heart-icon">
+                                            <a href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                            <a href="#"><i class="fa fa-heart-o"></i></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-details">
+                                        <div class="rating">
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                        </div>
+                                        <h5>SUEDE EFFECT KIMONO</h5>
+                                        <p>£57.00 <del>£85.00</del></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                                <div class="single-product">
+                                    <div class="product-bg p-bg-9">
+                                        <div class="overlay"></div>
+                                        <div class="cart-heart-icon">
+                                            <a href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                            <a href="#"><i class="fa fa-heart-o"></i></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-details">
+                                        <div class="rating">
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                            <a href="#" class="i fa fa-star"></a>
+                                        </div>
+                                        <h5>SUEDE EFFECT KIMONO</h5>
+                                        <p>£57.00 <del>£85.00</del></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination-custom">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                            <span class="sr-only">Previous</span>
+                                          </a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">9</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">10</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-widget">
+                        <h3>About Your Company</h3>
+                        <p>Claritas est etiam processus dynamicus, qui sequitur <br>mutationem consuetudium lectorum. Mirum est notare <br> quam littera gothica quam nunc putamus <br> parum claram anteposuerit</p>
+                        <div class="social-icon">
+                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                <div class="col-lg-2 col-md-5 col-sm-11">
+                    <div class="single-widget">
+                        <h3>Account</h3>
+                        <ul>
+                            <li><a href="#"> My orders</a></li>
+                            <li><a href="#">My credit slips</a></li>
+                            <li><a href="#">My addresses</a></li>
+                            <li><a href="#"> My orders</a></li>
+                            <li><a href="#">My personal info</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-7 col-sm-12">
+                    <div class="single-widget">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#">F.A.Qs</a></li>
+                            <li><a href="#">Get started</a></li>
+                            <li><a href="#">My addresses</a></li>
+                            <li><a href="#">Term & Coditions</a></li>
+                            <li><a href="#">About us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-12">
+                    <div class="single-widget">
+                        <h3>Newslater</h3>
+                        <p>Signup to become the 1st receive our latest news and promotion</p>
+                        <form action="#">
+                            <input type="text" placeholder="Your Email...">
+                            <button class="submit"><i class="fa fa-send"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <p>&copy; Your Company <a href="#">name here</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ====PREELOADER AREA START====-->
+    <div id="overlay">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+
+    <!-- ====Preeloader js====-->
+    <script src="assets/js/preloader.js"></script>
+    <!-- ====Bootstrap proper js====-->
+    <script src="assets/js/popper-1.12.3.min.js"></script>
+    <!-- ====Bootstrap JS====-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
